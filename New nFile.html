@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Emprendimiento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-info {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function mostrarServicios() {
+            alert("Brindamos asesoría para tu primer emprendimiento, te ayudamos a formalizar tu emprendimiento, te impulsamos para que el emprendimiento ya no sea un emprendimiento, sino una empresa consolidada en el mercado.");
+        }
+
+        function mostrarContacto() {
+            alert("Mis datos de contacto:\n\nTeléfono: 829-852-5952\nCorreo Electrónico: luisfelileinirio09@gmail.com");
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>Mi Primer Emprendimiento</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios" onclick="mostrarServicios()">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto" onclick="mostrarContacto()">Contacto</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="inicio">
+        <h2>Bienvenido a Mi Primer Emprendimiento</h2>
+        <p>En nuestro sitio encontrarás información sobre nuestros servicios y cómo podemos ayudarte a alcanzar tus metas.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Ofrecemos una variedad de servicios diseñados para ayudarte en tu emprendimiento.</p>
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos un equipo apasionado por ayudar a los nuevos emprendedores a tener éxito.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Mi Primer Emprendimiento. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
